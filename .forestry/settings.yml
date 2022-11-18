@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: pages/api/data/home
+  label: About Us
+  create: documents
+  match: about-us.json
 - type: document
   path: src/pages/_api/data/home/welcome-section.json
   label: Test 2
