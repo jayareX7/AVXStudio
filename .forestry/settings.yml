@@ -16,7 +16,7 @@ sections:
   - test
 - type: heading
   label: Content
-upload_dir: images
+upload_dir: src/images
 public_path: ''
 front_matter_path: ''
 use_front_matter_path: false
