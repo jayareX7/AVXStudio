@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: src\pages\api\data\home
+  path: src/pages/api/data
   label: Test
   create: documents
   match: welcome-section.json
