@@ -1,7 +1,31 @@
-import '../styles/globals.css'
+import '../styles/styles.scss'
+import app from 'next/app';
+import React from 'react'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+
+
+
+
+export default class MyApp extends app {
+  static getInitialProps({ Component, router, ctx }) {
+    let pageProps = app.getInitialProps({ Component, router, ctx });
+
+
+    return { pageProps };
+  }
+
+  render() {
+    const { Component, pageProps } = this.props;
+    return (
+      <section id="app">
+        
+        
+       
+        <Component {...pageProps} />
+
+      
+       
+      </section>
+    );
+  }
 }
-
-export default MyApp

@@ -1,0 +1,99 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Post 1",
+            "content": "This is the full content of post 1"
+        },
+        {
+            "id": 2,
+            "title": "Post 2",
+            "content": "This is the full content of post 2"
+        },
+        {
+            "id": 3,
+            "title": "Post 3",
+            "content": "This is the full content of post 3"
+        },
+        {
+            "id": 4,
+            "title": "Post 4",
+            "content": "This is the full content of post 4"
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "title": "Jay-Z",
+            "description": "Reasonable Doubt"
+        },
+        {
+            "id": 2,
+            "title": "Lauryn Hill",
+            "description": "Miseducation of Lauryn Hill"
+        },
+        {
+            "id": 3,
+            "title": "T.I",
+            "description": "T.I vs T.I.P"
+        },
+        {
+            "id": 4,
+            "title": "Young Jeezy",
+            "description": "Thug Motivation 101"
+        }
+    ],
+    "services": [
+        {
+            "id": 1,
+            "title": "Audio Design",
+            "image": "Reasonable Doubt",
+            "src": "/audio-design.webp" ,
+            "slug": "audio-design"
+        },
+        {
+            "id": 2,
+            "title": "Corporate Identity",
+            "description": "Miseducation of Lauryn Hill",
+            "src": "/corporate-identity.webp",
+            "slug": "corporate-identity"
+        },
+        {
+            "id": 3,
+            "title": "Graphic Design",
+            "description": "T.I vs T.I.P",
+            "src": "/graphic-design.webp",
+            "slug": "graphic-design"
+        },
+        {
+            "id": 4,
+            "title": "Marketing",
+            "description": "Thug Motivation 101",
+            "src": "/marketing.webp",
+            "slug": "marketing"
+        },
+        {
+            "id": 5,
+            "title": "Visual Design",
+            "description": "T.I vs T.I.P",
+            "src": "/visual-design.webp",
+            "slug": "visual-design"
+        },
+        {
+            "id": 6,
+            "title": "Web Design",
+            "src": "/web-design.webp",
+            "slug": "web-design"
+        }
+    ],
+    "abouts": [
+        {
+            "id": 1,
+            "headerOne": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "headerTwo": " Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum",
+            "image": "Reasonable Doubt",
+            "src": "/audio-design.webp" ,
+            "btn": "Read Full Story"
+        }
+    ]
+}

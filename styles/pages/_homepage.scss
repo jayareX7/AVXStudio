@@ -1,0 +1,20 @@
+
+.home-header-section {
+
+    background-image: $home-header-section-bg;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.welcome-section {
+    background-image: $welcome-section-bg;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.service-section {
+    background-image: $service-section-bg;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
