@@ -7,9 +7,8 @@ sections:
 - type: document
   path: src/pages/api/data/home/welcome-section.json
   label: Test 2
-  match: "**/*"
 - type: directory
-  path: src/pages/api/data
+  path: src/pages/api/data/home
   label: Test
   create: documents
   match: welcome-section.json
