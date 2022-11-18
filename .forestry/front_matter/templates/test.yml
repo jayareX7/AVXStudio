@@ -6,9 +6,6 @@ fields:
   name: posts
   label: posts
   fields:
-  - type: number
-    name: id
-    label: id
   - type: text
     name: title
     label: title
@@ -19,9 +16,6 @@ fields:
   name: users
   label: users
   fields:
-  - type: number
-    name: id
-    label: id
   - type: text
     name: title
     label: title
@@ -32,9 +26,6 @@ fields:
   name: services
   label: services
   fields:
-  - type: number
-    name: id
-    label: id
   - type: text
     name: title
     label: title
@@ -51,9 +42,6 @@ fields:
   name: abouts
   label: abouts
   fields:
-  - type: number
-    name: id
-    label: id
   - type: text
     name: headerOne
     label: headerOne
