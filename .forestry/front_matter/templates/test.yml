@@ -1,0 +1,59 @@
+---
+label: test
+hide_body: true
+fields:
+- type: field_group_list
+  name: posts
+  label: posts
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: content
+    label: content
+- type: field_group_list
+  name: users
+  label: users
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: description
+    label: description
+- type: field_group_list
+  name: services
+  label: services
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: image
+    label: image
+  - type: file
+    name: src
+    label: src
+  - type: text
+    name: slug
+    label: slug
+- type: field_group_list
+  name: abouts
+  label: abouts
+  fields:
+  - type: text
+    name: headerOne
+    label: headerOne
+  - type: textarea
+    name: headerTwo
+    label: headerTwo
+  - type: text
+    name: image
+    label: image
+  - type: file
+    name: src
+    label: src
+  - type: text
+    name: btn
+    label: btn
