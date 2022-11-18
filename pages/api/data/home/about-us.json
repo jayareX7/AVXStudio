@@ -1,0 +1,12 @@
+{
+    "abouts": [
+        {
+            "id": 1,
+            "headerOne": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "headerTwo": " Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum",
+            "image": "Reasonable Doubt",
+            "src": "/audio-design.webp" ,
+            "btn": "Read Full Story"
+        }
+    ]
+}
