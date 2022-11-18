@@ -12,6 +12,8 @@ sections:
   label: Test
   create: documents
   match: welcome-section.json
+  templates:
+  - test
 - type: heading
   label: Content
 upload_dir: uploads
