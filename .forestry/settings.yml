@@ -12,7 +12,7 @@ sections:
 - type: directory
   path: pages/api/data/home
   label: Test
-  create: documents
+  create: none
   match: welcome-section.json
   templates:
   - test
