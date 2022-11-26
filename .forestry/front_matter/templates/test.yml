@@ -38,22 +38,3 @@ fields:
   - type: text
     name: slug
     label: slug
-- type: field_group_list
-  name: abouts
-  label: abouts
-  fields:
-  - type: text
-    name: headerOne
-    label: headerOne
-  - type: textarea
-    name: headerTwo
-    label: headerTwo
-  - type: text
-    name: image
-    label: image
-  - type: file
-    name: src
-    label: src
-  - type: text
-    name: btn
-    label: btn
