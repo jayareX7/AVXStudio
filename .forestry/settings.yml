@@ -11,16 +11,11 @@ sections:
   match: about-us.json
 - type: directory
   path: pages/api/data/home
-  label: Test
-  create: none
-  match: welcome-section.json
-  templates:
-  - test
-- type: directory
-  path: pages/api/data/home
   label: Test 2
   create: all
   match: welcome-section.json
+  templates:
+  - test
 - type: heading
   label: Content
 upload_dir: src/images
