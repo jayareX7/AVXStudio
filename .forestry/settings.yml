@@ -9,9 +9,6 @@ sections:
   label: About Us
   create: documents
   match: about-us.json
-- type: document
-  path: src/pages/_api/data/home/welcome-section.json
-  label: Test 2
 - type: directory
   path: pages/api/data/home
   label: Test
@@ -19,6 +16,11 @@ sections:
   match: welcome-section.json
   templates:
   - test
+- type: directory
+  path: pages/api/data/home
+  label: Test 2
+  create: all
+  match: welcome-section.json
 - type: heading
   label: Content
 upload_dir: src/images
